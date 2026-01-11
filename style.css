@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #8a51fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 375px;
+}
+
+#label-1 {
+  margin-top: 44px;
+}
+
+label {
+  margin: auto 24px 24px 24px;
+  font-size: 14px;
+  color: #777777;
+}
+
+#label-3 {
+  display: block;
+  font-size: 14px;
+  color: #777777;
+  font-weight: 900;
+}
+
+input {
+  display: block;
+  width: 327px;
+  height: 48px;
+  margin-top: 6px;
+  padding-left: 17px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 900;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  width: 327px;
+  height: 48px;
+  margin-top: 6px;
+  padding-left: 17px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 900;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 327px;
+  height: 276px;
+  border: #772fd3 solid 1px;
+  border-radius: 10px;
+  margin-top: 36px;
+  margin-bottom: 26px;
+}
+
+#img-logo {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+button {
+  background-color: #772fd3;
+  width: 327px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+}
+
+.img-moeda {
+  width: 44px;
+}
+
+.name-coin {
+  color: #777777;
+  font-size: 14px;
+}
+
+.value-result {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.div-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+  #img-logo {
+    width: 200px;
+  }
+}
