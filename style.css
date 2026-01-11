@@ -97,16 +97,18 @@ button {
   letter-spacing: 1px;
 }
 
-.img-moeda {
+.img-coin {
   width: 44px;
 }
 
-.name-coin {
+.currency-coin,
+.currency-coin-converted {
   color: #777777;
   font-size: 14px;
 }
 
-.value-result {
+.currency-value,
+.currency-value-converted {
   color: #555555;
   font-size: 20px;
   font-weight: 900;
